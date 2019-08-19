@@ -811,6 +811,19 @@
 				<string>#A77800</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Method parameters</string>
+			<key>scope</key>
+			<string>meta.method.parameters</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#9C9C9C</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>2fd1a8f9-ddfd-11e2-a28f-0800200c9a66</string>

@@ -847,6 +847,17 @@
 				<key>background</key>
 				<string>#003000</string>
 				<key>foreground</key>
+				<string>#F0F0F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff inserted</string>
+			<key>scope</key>
+			<string>source.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
 				<string>#B0B0B0</string>
 			</dict>
 		</dict>

@@ -828,7 +828,7 @@
 			<key>name</key>
 			<string>Diff removed</string>
 			<key>scope</key>
-			<string>markup.deleted.diff</string>
+			<string>markup.deleted.diff,meta.diff.header.from-file</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -841,7 +841,7 @@
 			<key>name</key>
 			<string>Diff inserted</string>
 			<key>scope</key>
-			<string>markup.inserted.diff</string>
+			<string>markup.inserted.diff,meta.diff.header.to-file</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -852,13 +852,37 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Diff inserted</string>
+			<string>Diff source</string>
 			<key>scope</key>
 			<string>source.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#B0B0B0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff index</string>
+			<key>scope</key>
+			<string>meta.toc-list.file-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F0F0FF</string>
+				<key>background</key>
+				<string>#000080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff index</string>
+			<key>scope</key>
+			<string>meta.diff.range.unified</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9090E0</string>
 			</dict>
 		</dict>
 	</array>

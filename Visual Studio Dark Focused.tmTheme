@@ -280,6 +280,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Method parameters</string>
+			<key>scope</key>
+			<string>meta.method.parameters</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#9C9C9C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
 			<string>entity.name.type</string>
@@ -813,15 +826,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Method parameters</string>
+			<string>Diff removed</string>
 			<key>scope</key>
-			<string>meta.method.parameters</string>
+			<string>markup.deleted.diff</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<key>background</key>
+				<string>#300000</string>
 				<key>foreground</key>
-				<string>#9C9C9C</string>
+				<string>#707070</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#003000</string>
+				<key>foreground</key>
+				<string>#B0B0B0</string>
 			</dict>
 		</dict>
 	</array>
